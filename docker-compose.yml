@@ -1,0 +1,12 @@
+# docker-compose -f docker-compose.yml up --build --abort-on-container-exit
+# docker-compose -f docker-compose.yml run npk.build.test /bin/bash
+version: "3.5"
+services:
+  react.nginx:
+    container_name: react.nginx.container
+    image: react.nginx
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 80:80

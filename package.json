@@ -1,0 +1,79 @@
+{
+  "name": "react-tsx-poc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "swagger:gen": "nswag openapi2tsclient /input:src/plugins/swagger.json /output:src/plugins/clients/api.ts /OperationGenerationMode:MultipleClientsFromFirstTagAndOperationId"
+  },
+  "dependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/mathjs": "^6.0.2",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^12.12.6",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-leaflet": "^2.5.0",
+    "@types/react-modal": "^3.10.0",
+    "@types/react-router-dom": "^5.1.2",
+    "@types/react-select": "^3.0.8",
+    "@types/react-table": "^6.8.5",
+    "@types/styled-components": "^4.4.0",
+    "@types/yup": "^0.26.24",
+    "apexcharts": "^3.10.1",
+    "faker": "^4.1.0",
+    "fetch-intercept": "^2.3.1",
+    "formik": "^1.5.8",
+    "leaflet": "^1.5.1",
+    "lime-scss": "^0.9.81",
+    "mathjs": "^6.2.3",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "nprogress": "^0.2.0",
+    "nswag": "^13.1.3",
+    "raw-loader": "^3.1.0",
+    "react": "^16.11.0",
+    "react-apexcharts": "^1.3.3",
+    "react-date-picker": "^7.8.2",
+    "react-dom": "^16.11.0",
+    "react-hook-form": "^3.28.11",
+    "react-leaflet": "^2.5.0",
+    "react-leaflet-google-layer": "^1.1.4",
+    "react-modal": "^3.11.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-select": "^3.0.8",
+    "react-table": "^7.0.0-beta.12",
+    "react-visjs-timeline": "^1.6.0",
+    "styled-components": "^4.4.1",
+    "toastify-js": "^1.6.1",
+    "typescript": "^3.7.2",
+    "vis": "^4.21.0-EOL",
+    "vis-timeline": "^6.2.0",
+    "yup": "^0.27.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "customize-cra": "^0.9.1",
+    "react-app-rewired": "^2.1.5"
+  }
+}

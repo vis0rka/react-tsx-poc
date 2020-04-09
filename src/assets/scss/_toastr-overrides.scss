@@ -1,0 +1,27 @@
+.redux-toastr {
+  .toastr {
+    &.rrt-error {
+      .rrt-left-container {
+        .toastr-icon {
+          margin-top: 12px;
+        }
+      }
+    }
+
+    .rrt-middle-container {
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+
+      > * {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+          align-self: flex-end;
+        }
+      }
+    }
+  }
+}
