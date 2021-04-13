@@ -53,7 +53,7 @@
     "toastify-js": "^1.6.1",
     "typescript": "^3.7.2",
     "vis": "^4.21.0-EOL",
-    "vis-timeline": "^6.2.0",
+    "vis-timeline": "^7.4.4",
     "yup": "^0.27.0"
   },
   "eslintConfig": {
