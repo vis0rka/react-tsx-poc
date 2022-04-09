@@ -31,7 +31,7 @@
     "leaflet": "^1.5.1",
     "lime-scss": "^0.9.81",
     "mathjs": "^6.2.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-sass": "^4.13.0",
     "nprogress": "^0.2.0",
     "nswag": "^13.1.3",
